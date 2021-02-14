@@ -1,11 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import "bootstrap/dist/css/bootstrap.css";
+import App from "./App";
+import "bootstrap/dist/js/bootstrap.bundle";
 
-const rootElement = document.getElementById('root');
+const rootElement = document.getElementById("root");
 
-ReactDOM.render(
-  <App />,
-  rootElement
-);
-
+ReactDOM.render(<App />, rootElement);

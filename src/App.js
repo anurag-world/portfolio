@@ -1,7 +1,6 @@
-import "../node_modules/bootstrap/dist/css/bootstrap.css";
-import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import "./css/app.css";
 import profilePic from "./img/profile_pic_tn.png";
+import { FaPencilRuler } from "react-icons/fa";
 
 function Nav(props) {
   return (
@@ -100,6 +99,7 @@ function SectionTwo() {
       <div className="row g-0 justify-content-center mt-3">
         <div className="col-md-3 text-center">
           <div className="card p-3">
+            <FaPencilRuler />
             <div className="card-body">
               <h4 className="card-title pb-2">UI/UX Designer</h4>
               <p className="lead fs-6">
