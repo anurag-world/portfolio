@@ -21,7 +21,7 @@ function Nav(props) {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="/">
                 Home
@@ -168,9 +168,31 @@ function SectionTwo() {
           </div>
         </div>
         <div className="col-md-3 text-center">
-          <div className="card p-3">
+          <div className="card">
+            <div className="card-header">
+              <span className="fw-bold">Graphic Designer & Illustrator</span>
+            </div>
             <div className="card-body">
-              <h4 className="card-title">Graphic Designer & Illustrator</h4>
+              <p className="lead fs-6">
+                Have knowledge of creating Graphic Designs & Illustrations for
+                various clients using tools like Adobe Illustrator & Adobe
+                Photoshop. Also, have worked as a social media manager.
+              </p>
+              <h6 className="display-7 p-2">Skills</h6>
+              <p className="lead fs-6">
+                Graphic Design, Illustrator, Digital Artist, Social Media
+                Manager, Social Media Posts & Stories.
+              </p>
+
+              <h6 className="display-7 p-2">Tools</h6>
+              <p className="lead fs-6">
+                Adobe Illustrator <br />
+                Adobe Photoshop <br />
+                Procreate <br />
+                Affinity Designer <br />
+                Canva <br />
+                Figma <br />
+              </p>
             </div>
           </div>
         </div>
