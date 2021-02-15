@@ -1,6 +1,6 @@
 import "./css/app.css";
 import profilePic from "./img/profile_pic_tn.png";
-import { FaPencilRuler } from "react-icons/fa";
+// import { FaPencilRuler } from "react-icons/fa";
 
 function Nav(props) {
   return (
@@ -42,13 +42,13 @@ function Nav(props) {
 function Header() {
   const headline = (
     <h1 className="display-5 fw-bold text-dark">
-      UX Designer & Full Stack Developer
+      UX Designer & React Developer
     </h1>
   );
 
   const subtitle = (
     <p className="lead fs-6 p-3 fw-normal text-dark">
-      I like to Design & Code from scratch
+      I like to Design & Code projects using React & React Native.
     </p>
   );
 
@@ -96,12 +96,14 @@ function SectionOne() {
 function SectionTwo() {
   return (
     <div className="container-fluid">
-      <div className="row g-0 justify-content-center mt-3">
+      <div className="row g-1 justify-content-center my-5">
         <div className="col-md-3 text-center">
-          <div className="card p-3">
-            <FaPencilRuler />
+          <div className="card">
+            <div className="card-header">
+              <span className="fw-bold">UI/UX Designer</span>
+            </div>
+            {/* <FaPencilRuler /> */}
             <div className="card-body">
-              <h4 className="card-title pb-2">UI/UX Designer</h4>
               <p className="lead fs-6">
                 Have experience in taking different roles as UX Researcher &
                 Designer to create a project from research to wireframing for
@@ -130,9 +132,38 @@ function SectionTwo() {
           </div>
         </div>
         <div className="col-md-3 text-center">
-          <div className="card p-3">
+          <div className="card">
+            <div className="card-header">
+              <span className="fw-bold">Full Stack Developer</span>
+            </div>
             <div className="card-body">
-              <h4 className="card-title">Full Stack Developer</h4>
+              <p className="lead fs-6">
+                Have experience in various languages & frameworks like
+                Bootstrap, HTML5, CSS3, Sass, Jquery, Javascript, PHP. Also,
+                have experience in creating e-commerce, university websites
+                using frameworks like laravel & codeigniter. I am also
+                proficient in React, React Native, ExpressJS , NodeJS, MongoDB,
+                NoSQL, MySQL. <br />I can also manage & deploy projects on
+                linux, VPS & cloud servers.
+              </p>
+              <h6 className="display-7 p-2">Skills</h6>
+              <p className="lead fs-6">
+                Bootstrap, HTML5, CSS3, Sass, Jquery, Javascript, PHP, React,
+                React Native, ExpressJS, NodeJS, MongoDB, NoSQL, MySQL, Laravel,
+                Codeigniter
+              </p>
+
+              <h6 className="display-7 p-2">Tools</h6>
+              <p className="lead fs-6">
+                Atom <br />
+                Visual Studio Code <br />
+                Command Line Terminal <br />
+                CodeSandbox <br />
+                Codepen <br />
+                Github <br />
+                Console <br />
+                Sublime Text <br />
+              </p>
             </div>
           </div>
         </div>

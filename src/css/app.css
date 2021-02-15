@@ -1,4 +1,8 @@
 .bg-yellow {
-  background-color: #FEE405;
+  background-color: #fee405;
+}
+
+.card {
+  height: 50rem;
 }
 /*# sourceMappingURL=app.css.map */
