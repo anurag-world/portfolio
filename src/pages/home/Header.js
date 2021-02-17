@@ -5,13 +5,14 @@ class Header extends React.Component {
   render() {
     const headline = (
       <h1 className="display-5 fw-bold text-dark">
-        UX Designer & React Developer
+        UX Designer & Full Stack Developer
       </h1>
     );
 
     const subtitle = (
       <p className="lead fs-6 p-3 fw-normal text-dark">
-        I like to Design & Code projects using React & React Native.
+        Experience in design & building projects using Node JS & Javascript
+        Libraries like React & React Native.
       </p>
     );
 

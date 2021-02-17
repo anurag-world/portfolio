@@ -52,8 +52,8 @@ class SectionTwo extends React.Component {
                   have experience in creating e-commerce, university websites
                   using frameworks like laravel & codeigniter. I am also
                   proficient in React, React Native, ExpressJS , NodeJS,
-                  MongoDB, NoSQL, MySQL. <br />I can also manage & deploy
-                  projects on linux, VPS & cloud servers.
+                  MongoDB, NoSQL, MySQL, Firebase. <br />I can also manage &
+                  deploy projects on linux, VPS & cloud servers.
                 </p>
                 <h6 className="display-7 p-2">Skills</h6>
                 <p className="lead fs-6">
