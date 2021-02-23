@@ -19,7 +19,7 @@ class Header extends React.Component {
     const displayImg = <img src={profilePic} height={200} alt="Display Pic" />;
 
     return (
-      <div className="container-fluid">
+      <div className="container-fluid bg-light">
         <div className="row">
           <div className="col mt-5">
             <div className="text-center">

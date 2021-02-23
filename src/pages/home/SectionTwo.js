@@ -3,7 +3,7 @@ import React from "react";
 class SectionTwo extends React.Component {
   render() {
     return (
-      <div className="container-fluid">
+      <div className="container-fluid bg-light">
         <div className="row g-5 justify-content-center my-5">
           <div className="col-md-3 text-center">
             <div className="card">

@@ -13,22 +13,24 @@ class UxCase extends React.Component {
   render() {
     return (
       <div className="container-fluid bg-light p-5">
-        <div className="row justify-content-center mt-5">
-          <p className="display-6 text-center fw-normal">UX Case Studies</p>
-          <p className="text-center lead fs-6 fw-normal">
-            Some of the case studies I worked on for User Experience(UX). It
-            contained detailed analysis and report for various products. <br />
-            These case studies are featured in various publications. Contact Me
-            for similar work.
-          </p>
+        <div className="row justify-content-center">
+          <div className="col-12">
+            <p className="display-6 text-center fw-normal">UX Case Studies</p>
+            <p className="text-center lead fs-6 fw-normal px-5">
+              Case studies I worked on for User Experience(UX). It contained
+              detailed analysis and report for various products. These case
+              studies are featured in various publications. Contact Me for
+              similar work.
+            </p>
+          </div>
 
-          <div className="col container-work-thumb my-5">
+          <div className="col-lg-4 container-work-thumb my-3">
             <a href="/">
               {WorkThumb01}
-              <div className="middle">
+              <div className="col-10 middle">
                 <div className="text-light bg-dark px-3 py-2">
                   <p className="lead fs-6 mb-2">
-                    Ux Case Study for better furnishing & shopping experience
+                    UX Case Study for better furnishing & shopping experience
                   </p>
 
                   <span className="fs-6 text-uppercase">Read Case Study</span>
@@ -37,31 +39,31 @@ class UxCase extends React.Component {
             </a>
           </div>
 
-          <div className="col container-work-thumb my-5">
+          <div className="col-lg-4 container-work-thumb my-3">
             <a href="/">
               {WorkThumb01}
-              <div className="middle">
+              <div className="col-10 middle">
                 <div className="text-light bg-dark px-3 py-2">
                   <p className="lead fs-6 mb-2">
-                    Events Website created using Laravel
+                    UX Case Study for Teaching App
                   </p>
 
-                  <span className="fs-6 text-uppercase">Visit Website</span>
+                  <span className="fs-6 text-uppercase">Read Case Study</span>
                 </div>
               </div>
             </a>
           </div>
 
-          <div className="col container-work-thumb my-5">
+          <div className="col-lg-4 container-work-thumb my-3">
             <a href="/">
               {WorkThumb01}
-              <div className="middle">
+              <div className="col-10 middle">
                 <div className="text-light bg-dark px-3 py-2">
                   <p className="lead fs-6 mb-2">
-                    Ecommerce Website created using Laravel
+                    UX Case Study for Fitness App
                   </p>
 
-                  <span className="fs-6 text-uppercase">Visit Website</span>
+                  <span className="fs-6 text-uppercase">Read Case Study</span>
                 </div>
               </div>
             </a>

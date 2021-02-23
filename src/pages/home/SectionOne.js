@@ -16,8 +16,8 @@ class SectionOne extends React.Component {
     );
 
     return (
-      <div className="container-fluid">
-        <div className="row mt-5 justify-content-center bg-yellow">
+      <div className="container-fluid bg-yellow">
+        <div className="row mt-5 justify-content-center">
           <div className="col-md-8">{about}</div>
         </div>
       </div>
