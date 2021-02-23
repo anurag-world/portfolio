@@ -3,7 +3,7 @@ import React from "react";
 class Nav extends React.Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <a className="navbar-brand fw-bold link-dark" href="/">
             {this.props.name}
