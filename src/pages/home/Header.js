@@ -5,7 +5,7 @@ class Header extends React.Component {
   render() {
     const headline = (
       <h1 className="display-5 fw-bold text-dark">
-        UX Designer & Full Stack Developer
+        Designer & Full Stack Developer
       </h1>
     );
 

@@ -4,7 +4,7 @@ class SectionTwo extends React.Component {
   render() {
     return (
       <div className="container-fluid">
-        <div className="row g-1 justify-content-center my-5">
+        <div className="row g-5 justify-content-center my-5">
           <div className="col-md-3 text-center">
             <div className="card">
               <div className="card-header">
