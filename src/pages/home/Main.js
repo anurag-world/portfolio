@@ -1,11 +1,11 @@
-import React from "react";
-import Header from "./Header";
-import SectionOne from "./SectionOne";
-import SectionTwo from "./SectionTwo";
-import RecentWork from "./RecentWork";
-import UxCase from "./UxCase";
+import React from "react"
+import Header from "./Header"
+import SectionOne from "./SectionOne"
+import SectionTwo from "./SectionTwo"
+import RecentWork from "./RecentWork"
+import UxCase from "./UxCase"
 
-function Main() {
+const Main = () => {
   return (
     <>
       <Header />
@@ -14,7 +14,6 @@ function Main() {
       <RecentWork />
       <UxCase />
     </>
-  );
+  )
 }
-
-export default Main;
+export default Main

@@ -1,5 +1,5 @@
-import React from "react";
-import Work01 from "../../img/work-01.png";
+import React from "react"
+import Work01 from "../../img/work-01.png"
 
 const WorkThumb01 = (
   <img
@@ -7,7 +7,7 @@ const WorkThumb01 = (
     src={Work01}
     alt="Work Thumbnail"
   />
-);
+)
 
 class UxCase extends React.Component {
   render() {
@@ -17,7 +17,7 @@ class UxCase extends React.Component {
           <div className="col-12">
             <p className="display-6 text-center fw-normal">UX Case Studies</p>
             <p className="text-center lead fs-6 fw-normal px-5">
-              Case studies I worked on for User Experience(UX). It contained
+              Case studies I worked on for User Experience(UX). It contains
               detailed analysis and report for various products. These case
               studies are featured in various publications. Contact Me for
               similar work.
@@ -70,8 +70,8 @@ class UxCase extends React.Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default UxCase;
+export default UxCase
