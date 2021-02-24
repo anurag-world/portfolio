@@ -1,17 +1,16 @@
-import React from "react";
+import { Component } from 'react'
 
-class SectionTwo extends React.Component {
+class SectionTwo extends Component {
   render() {
     return (
       <div className="container-fluid bg-light">
-        <div className="row g-5 justify-content-center my-5">
-          <div className="col-md-3 text-center">
+        <div className="row justify-content-center p-5">
+          <div className="col-lg-4 text-center mb-2">
             <div className="card">
               <div className="card-header">
-                <span className="fw-bold">UI/UX Designer</span>
+                <span className="fw-bold text-danger">UI/UX Designer</span>
               </div>
-              {/* <FaPencilRuler /> */}
-              <div className="card-body">
+              <div className="card-body bg-light text-dark">
                 <p className="lead fs-6">
                   Have experience in taking different roles as UX Researcher &
                   Designer to create a project from research to wireframing for
@@ -21,12 +20,14 @@ class SectionTwo extends React.Component {
                   etc.
                 </p>
 
-                <h6 className="display-7 p-2">Skills</h6>
+                <h6 className="display-7 p-2 text-danger text-danger">
+                  Skills
+                </h6>
                 <p className="lead fs-6">
                   UX Research, UX Design, UI, Web Design, App Design
                 </p>
 
-                <h6 className="display-7 p-2">Tools</h6>
+                <h6 className="display-7 p-2 text-danger">Tools</h6>
                 <p className="lead fs-6">
                   Adobe XD <br />
                   Figma <br />
@@ -40,12 +41,14 @@ class SectionTwo extends React.Component {
               </div>
             </div>
           </div>
-          <div className="col-md-3 text-center">
+          <div className="col-lg-4 text-center mb-2">
             <div className="card">
               <div className="card-header">
-                <span className="fw-bold">Full Stack Developer</span>
+                <span className="fw-bold text-danger">
+                  Full Stack Developer
+                </span>
               </div>
-              <div className="card-body">
+              <div className="card-body bg-light text-dark">
                 <p className="lead fs-6">
                   Have experience in various languages & frameworks like
                   Bootstrap, HTML5, CSS3, Sass, Jquery, Javascript, PHP. Also,
@@ -55,14 +58,14 @@ class SectionTwo extends React.Component {
                   MongoDB, NoSQL, MySQL, Firebase. <br />I can also manage &
                   deploy projects on linux, VPS & cloud servers.
                 </p>
-                <h6 className="display-7 p-2">Skills</h6>
+                <h6 className="display-7 p-2 text-danger">Skills</h6>
                 <p className="lead fs-6">
                   Bootstrap, HTML5, CSS3, Sass, Jquery, Javascript, PHP, React,
                   React Native, ExpressJS, NodeJS, MongoDB, NoSQL, MySQL,
                   Laravel, Codeigniter
                 </p>
 
-                <h6 className="display-7 p-2">Tools</h6>
+                <h6 className="display-7 p-2 text-danger">Tools</h6>
                 <p className="lead fs-6">
                   Atom <br />
                   Visual Studio Code <br />
@@ -76,24 +79,26 @@ class SectionTwo extends React.Component {
               </div>
             </div>
           </div>
-          <div className="col-md-3 text-center">
+          <div className="col-lg-4 text-center mb-2">
             <div className="card">
               <div className="card-header">
-                <span className="fw-bold">Graphic Designer & Illustrator</span>
+                <span className="fw-bold text-danger">
+                  Graphic Designer & Illustrator
+                </span>
               </div>
-              <div className="card-body">
+              <div className="card-body bg-light text-dark">
                 <p className="lead fs-6">
                   Have knowledge of creating Graphic Designs & Illustrations for
                   various clients using tools like Adobe Illustrator & Adobe
                   Photoshop. Also, have worked as a social media manager.
                 </p>
-                <h6 className="display-7 p-2">Skills</h6>
+                <h6 className="display-7 p-2 text-danger">Skills</h6>
                 <p className="lead fs-6">
                   Graphic Design, Illustrator, Digital Artist, Social Media
                   Manager, Social Media Posts & Stories.
                 </p>
 
-                <h6 className="display-7 p-2">Tools</h6>
+                <h6 className="display-7 p-2 text-danger">Tools</h6>
                 <p className="lead fs-6">
                   Adobe Illustrator <br />
                   Adobe Photoshop <br />
@@ -107,8 +112,8 @@ class SectionTwo extends React.Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default SectionTwo;
+export default SectionTwo

@@ -1,5 +1,5 @@
-import React from "react";
-import Work01 from "../../img/work-01.png";
+import { Component } from 'react'
+import Work01 from '../../img/work-01.png'
 
 const WorkThumb01 = (
   <img
@@ -7,13 +7,13 @@ const WorkThumb01 = (
     src={Work01}
     alt="Work Thumbnail"
   />
-);
+)
 
-class RecentWork extends React.Component {
+class RecentWork extends Component {
   render() {
     return (
-      <div className="container-fluid bg-yellow p-5">
-        <div className="row justify-content-center">
+      <div className="container-fluid bg-yellow">
+        <div className="row justify-content-center p-5">
           <div className="col-12">
             <p className="display-6 text-center fw-normal">Work Profile</p>
             <p className="text-center lead fs-6 fw-normal px-5">
@@ -22,7 +22,8 @@ class RecentWork extends React.Component {
               Contact Me for similar work.
             </p>
           </div>
-
+        </div>
+        <div className="row justify-content-center p-5">
           <div className="col-lg-4 container-work-thumb my-3">
             <a href="/">
               {WorkThumb01}
@@ -69,8 +70,8 @@ class RecentWork extends React.Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default RecentWork;
+export default RecentWork

@@ -1,6 +1,6 @@
-import React from "react";
+import { Component } from 'react'
 
-class SectionOne extends React.Component {
+class SectionOne extends Component {
   render() {
     const about = (
       <p className="lead fs-6 fw-normal p-5 text-dark text-center">
@@ -13,16 +13,16 @@ class SectionOne extends React.Component {
         also worked as a social media manager & have experience in managing &
         mentoring a team.
       </p>
-    );
+    )
 
     return (
       <div className="container-fluid bg-yellow">
-        <div className="row mt-5 justify-content-center">
+        <div className="row justify-content-center">
           <div className="col-md-8">{about}</div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default SectionOne;
+export default SectionOne

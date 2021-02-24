@@ -1,5 +1,5 @@
-import React from "react"
-import Work01 from "../../img/work-01.png"
+import { Component } from 'react'
+import Work01 from '../../img/work-01.png'
 
 const WorkThumb01 = (
   <img
@@ -9,11 +9,11 @@ const WorkThumb01 = (
   />
 )
 
-class UxCase extends React.Component {
+class UxCase extends Component {
   render() {
     return (
-      <div className="container-fluid bg-light p-5">
-        <div className="row justify-content-center">
+      <div className="container-fluid bg-light">
+        <div className="row justify-content-center p-5">
           <div className="col-12">
             <p className="display-6 text-center fw-normal">UX Case Studies</p>
             <p className="text-center lead fs-6 fw-normal px-5">
@@ -23,7 +23,9 @@ class UxCase extends React.Component {
               similar work.
             </p>
           </div>
+        </div>
 
+        <div className="row justify-content-center px-5">
           <div className="col-lg-4 container-work-thumb my-3">
             <a href="/">
               {WorkThumb01}
@@ -67,6 +69,17 @@ class UxCase extends React.Component {
                 </div>
               </div>
             </a>
+          </div>
+        </div>
+
+        <div className="row justify-content-center p-4">
+          <div className="col text-center">
+            <button type="button" class="btn btn-outline-danger me-3">
+              View More UI Designs
+            </button>
+            <button type="button" class="btn btn-outline-danger">
+              View portfolio on Behance
+            </button>
           </div>
         </div>
       </div>
