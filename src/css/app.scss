@@ -21,9 +21,12 @@
   background-color: $gray-200;
 }
 
-/* .card {
-    height: 50rem;
-  } */
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+  .card {
+    height: 45rem;
+  }
+}
 
 /* Work Profile Hover */
 

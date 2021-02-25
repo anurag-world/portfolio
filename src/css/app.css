@@ -15,9 +15,12 @@
   background-color: #e9ecef;
 }
 
-/* .card {
-    height: 50rem;
-  } */
+@media (min-width: 992px) {
+  .card {
+    height: 45rem;
+  }
+}
+
 /* Work Profile Hover */
 .image-work-thumb {
   opacity: 1;

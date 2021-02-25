@@ -45,7 +45,7 @@ class UxCase extends Component {
           </div>
         </div>
 
-        <div className="row justify-content-center px-5 pb-5">
+        <div className="row justify-content-center px-5 pb-3">
           <div className="col-lg-4 container-work-thumb my-3">
             <a href="/">
               {UXCase01}
