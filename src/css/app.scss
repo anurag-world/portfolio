@@ -1,14 +1,59 @@
 // Required
-@import "../../node_modules/bootstrap/scss/functions";
-@import "../../node_modules/bootstrap/scss/variables";
-@import "../../node_modules/bootstrap/scss/mixins";
-
-$yellow-primary: #FEE405 !default;
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+@import '../../node_modules/bootstrap/scss/mixins';
 
 .bg-yellow {
-    background-color: $yellow-primary;
+  background-color: #fee405;
 }
 
-.card {
-    height: 20%;
+.bg-gray {
+  background-color: $gray-200;
+}
+
+/* Card Styles */
+
+.card-header {
+  background-color: $danger !important;
+}
+
+.card-body {
+  background-color: $gray-200;
+}
+
+/* .card {
+    height: 50rem;
+  } */
+
+/* Work Profile Hover */
+
+.image-work-thumb {
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container-work-thumb {
+  position: relative;
+}
+
+.container-work-thumb:hover .image-work-thumb {
+  opacity: 0.3;
+}
+
+.container-work-thumb:hover .middle {
+  opacity: 0.9;
 }

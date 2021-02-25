@@ -4,6 +4,7 @@ import SectionOne from './SectionOne'
 import SectionTwo from './SectionTwo'
 import RecentWork from './RecentWork'
 import UxCase from './UxCase'
+import ContactSection from './ContactSection'
 
 const Main = () => {
   return (
@@ -13,6 +14,7 @@ const Main = () => {
       <SectionTwo />
       <RecentWork />
       <UxCase />
+      <ContactSection />
     </>
   )
 }

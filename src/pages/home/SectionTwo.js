@@ -8,9 +8,9 @@ class SectionTwo extends Component {
           <div className="col-lg-4 text-center mb-2">
             <div className="card">
               <div className="card-header">
-                <span className="fw-bold text-danger">UI/UX Designer</span>
+                <span className="fw-normal text-light">UI/UX Designer</span>
               </div>
-              <div className="card-body bg-light text-dark">
+              <div className="card-body text-dark">
                 <p className="lead fs-6">
                   Have experience in taking different roles as UX Researcher &
                   Designer to create a project from research to wireframing for
@@ -44,11 +44,11 @@ class SectionTwo extends Component {
           <div className="col-lg-4 text-center mb-2">
             <div className="card">
               <div className="card-header">
-                <span className="fw-bold text-danger">
+                <span className="fw-normal text-light">
                   Full Stack Developer
                 </span>
               </div>
-              <div className="card-body bg-light text-dark">
+              <div className="card-body text-dark">
                 <p className="lead fs-6">
                   Have experience in various languages & frameworks like
                   Bootstrap, HTML5, CSS3, Sass, Jquery, Javascript, PHP. Also,
@@ -82,11 +82,11 @@ class SectionTwo extends Component {
           <div className="col-lg-4 text-center mb-2">
             <div className="card">
               <div className="card-header">
-                <span className="fw-bold text-danger">
+                <span className="fw-normal text-light">
                   Graphic Designer & Illustrator
                 </span>
               </div>
-              <div className="card-body bg-light text-dark">
+              <div className="card-body text-dark">
                 <p className="lead fs-6">
                   Have knowledge of creating Graphic Designs & Illustrations for
                   various clients using tools like Adobe Illustrator & Adobe

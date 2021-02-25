@@ -78,7 +78,7 @@ class UxCase extends Component {
               View More UI Designs
             </button>
             <button type="button" class="btn btn-outline-danger">
-              View portfolio on Behance
+              View Portfolio on Behance
             </button>
           </div>
         </div>

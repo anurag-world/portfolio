@@ -4,8 +4,8 @@ import profilePic from '../../img/profile_pic_tn.png'
 class Header extends React.Component {
   render() {
     const headline = (
-      <h1 className="display-5 fw-bold text-dark">
-        Designer & Full Stack Developer
+      <h1 className="display-5 fw-bold text-danger">
+        UI/UX Designer & Full Stack MERN Developer
       </h1>
     )
 
@@ -20,8 +20,8 @@ class Header extends React.Component {
 
     return (
       <div className="container-fluid bg-light">
-        <div className="row">
-          <div className="col my-5">
+        <div className="row justify-content-center">
+          <div className="col-lg-6 my-5">
             <div className="text-center">
               {headline}
 

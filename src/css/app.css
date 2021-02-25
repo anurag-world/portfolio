@@ -2,29 +2,42 @@
   background-color: #fee405;
 }
 
+.bg-gray {
+  background-color: #e9ecef;
+}
+
 /* Card Styles */
+.card-header {
+  background-color: #dc3545 !important;
+}
+
+.card-body {
+  background-color: #e9ecef;
+}
 
 /* .card {
-  height: 50rem;
-} */
-
+    height: 50rem;
+  } */
 /* Work Profile Hover */
-
 .image-work-thumb {
   opacity: 1;
   display: block;
   height: auto;
+  -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .middle {
+  -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -40,5 +53,4 @@
 .container-work-thumb:hover .middle {
   opacity: 0.9;
 }
-
 /*# sourceMappingURL=app.css.map */

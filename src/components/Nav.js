@@ -6,7 +6,9 @@ const Navigation = (props) => {
   return (
     <div className="container-fluid">
       <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="/">{props.name}</Navbar.Brand>
+        <Navbar.Brand href="/" className="text-danger fw-normal">
+          {props.name}
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarSupportedContent"></Navbar.Toggle>
         <Navbar.Collapse id="navbarSupportedContent">
           <Nav className="ms-auto">
