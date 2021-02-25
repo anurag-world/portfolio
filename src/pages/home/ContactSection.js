@@ -11,6 +11,9 @@ const ContactSection = () => {
             Let's discuss over a coffee or online. Drop me a mail at
             contact@anuragworld.com or contact me below.
           </p>
+          <button type="button" class="btn btn-danger">
+            Contact Me
+          </button>
         </div>
       </div>
     </div>

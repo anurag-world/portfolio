@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <NavBar name="Anurag World" />
+        <NavBar name="Anurag V" />
         <Switch>
           <Route path="/" component={Main} exact />
         </Switch>

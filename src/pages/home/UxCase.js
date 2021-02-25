@@ -1,10 +1,28 @@
 import { Component } from 'react'
-import Work01 from '../../img/work-01.png'
+import UX01 from '../../img/ux-01.png'
+import UX02 from '../../img/ux-02.png'
+import UX03 from '../../img/ux-03.png'
 
-const WorkThumb01 = (
+const UXCase01 = (
   <img
-    className="image-work-thumb img-fluid rounded"
-    src={Work01}
+    className="image-work-thumb img-fluid rounded border border-danger"
+    src={UX01}
+    alt="Work Thumbnail"
+  />
+)
+
+const UXCase02 = (
+  <img
+    className="image-work-thumb img-fluid rounded border border-danger"
+    src={UX02}
+    alt="Work Thumbnail"
+  />
+)
+
+const UXCase03 = (
+  <img
+    className="image-work-thumb img-fluid rounded border border-danger"
+    src={UX03}
     alt="Work Thumbnail"
   />
 )
@@ -13,10 +31,12 @@ class UxCase extends Component {
   render() {
     return (
       <div className="container-fluid bg-light">
-        <div className="row justify-content-center p-5">
-          <div className="col-12">
-            <p className="display-6 text-center fw-normal">UX Case Studies</p>
-            <p className="text-center lead fs-6 fw-normal px-5">
+        <div className="row justify-content-center py-5">
+          <div className="col-lg-8">
+            <h1 className="display-6 fw-normal text-danger text-center">
+              UX Case Studies
+            </h1>
+            <p className="text-center lead fs-6 fw-normal">
               Case studies I worked on for User Experience(UX). It contains
               detailed analysis and report for various products. These case
               studies are featured in various publications. Contact Me for
@@ -25,10 +45,10 @@ class UxCase extends Component {
           </div>
         </div>
 
-        <div className="row justify-content-center px-5">
+        <div className="row justify-content-center px-5 pb-5">
           <div className="col-lg-4 container-work-thumb my-3">
             <a href="/">
-              {WorkThumb01}
+              {UXCase01}
               <div className="col-10 middle">
                 <div className="text-light bg-dark px-3 py-2">
                   <p className="lead fs-6 mb-2">
@@ -43,11 +63,11 @@ class UxCase extends Component {
 
           <div className="col-lg-4 container-work-thumb my-3">
             <a href="/">
-              {WorkThumb01}
+              {UXCase02}
               <div className="col-10 middle">
                 <div className="text-light bg-dark px-3 py-2">
                   <p className="lead fs-6 mb-2">
-                    UX Case Study for Teaching App
+                    UX Case Study for Teaching App (Coming Soon)
                   </p>
 
                   <span className="fs-6 text-uppercase">Read Case Study</span>
@@ -58,11 +78,11 @@ class UxCase extends Component {
 
           <div className="col-lg-4 container-work-thumb my-3">
             <a href="/">
-              {WorkThumb01}
+              {UXCase03}
               <div className="col-10 middle">
                 <div className="text-light bg-dark px-3 py-2">
                   <p className="lead fs-6 mb-2">
-                    UX Case Study for Fitness App
+                    UX Case Study for Fitness App (Coming Soon)
                   </p>
 
                   <span className="fs-6 text-uppercase">Read Case Study</span>
@@ -72,7 +92,7 @@ class UxCase extends Component {
           </div>
         </div>
 
-        <div className="row justify-content-center p-4">
+        <div className="row justify-content-center py-5">
           <div className="col text-center">
             <button type="button" class="btn btn-outline-danger me-3">
               View More UI Designs

@@ -1,11 +1,11 @@
-import React from 'react'
+import { Component } from 'react'
 import profilePic from '../../img/profile_pic_tn.png'
 
-class Header extends React.Component {
+class Header extends Component {
   render() {
     const headline = (
       <h1 className="display-5 fw-bold text-danger">
-        UI/UX Designer & Full Stack MERN Developer
+        UI/UX Designer & Full Stack <br /> Developer
       </h1>
     )
 
