@@ -18,6 +18,10 @@ const Footer = () => {
           <p className="lead fs-5 text-capitalize text-light">
             Learning to Design & Code at every step
           </p>
+          <p className="lead fs-6 text-capitalize text-light">
+            React | React Native | NodeJS | ExpressJS | MongoDB | Javascript |
+            Bootstrap
+          </p>
         </div>
       </div>
 
