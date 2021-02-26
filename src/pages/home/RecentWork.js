@@ -48,7 +48,7 @@ class RecentWork extends Component {
             <a href="/">
               {WorkThumb01}
               <div className="col-10 middle">
-                <div className="text-light bg-dark px-3 py-2">
+                <div className="text-light bg-dark px-3 py-2 rounded">
                   <p className="lead fs-6 mb-2">
                     University Website created using codeigniter
                   </p>
@@ -63,7 +63,7 @@ class RecentWork extends Component {
             <a href="/">
               {WorkThumb02}
               <div className="col-10 middle">
-                <div className="text-light bg-dark px-3 py-2">
+                <div className="text-light bg-dark px-3 py-2 rounded">
                   <p className="lead fs-6 mb-2">
                     Events Website created using Laravel
                   </p>
@@ -78,7 +78,7 @@ class RecentWork extends Component {
             <a href="/">
               {WorkThumb03}
               <div className="col-10 middle">
-                <div className="text-light bg-dark px-3 py-2">
+                <div className="text-light bg-dark px-3 py-2 rounded">
                   <p className="lead fs-6 mb-2">
                     Ecommerce Website created using Laravel
                   </p>
