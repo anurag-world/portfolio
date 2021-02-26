@@ -18,7 +18,7 @@ class SectionOne extends Component {
     return (
       <div className="container-fluid bg-yellow">
         <div className="row justify-content-center">
-          <div className="col-md-8">{about}</div>
+          <div className="col-lg-8">{about}</div>
         </div>
       </div>
     )

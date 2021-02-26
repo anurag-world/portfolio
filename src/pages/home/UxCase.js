@@ -47,7 +47,7 @@ class UxCase extends Component {
 
         <div className="row justify-content-center px-5 pb-3">
           <div className="col-lg-4 container-work-thumb my-3">
-            <a href="/">
+            <a href="https://bootcamp.uxdesign.cc/ux-case-study-for-furniture-home-furnishings-shopping-app-fern-27fa797fd4cf">
               {UXCase01}
               <div className="col-10 middle">
                 <div className="text-light bg-dark px-3 py-2">
@@ -97,9 +97,14 @@ class UxCase extends Component {
             <button type="button" class="btn btn-outline-danger me-3">
               View More UI Designs
             </button>
-            <button type="button" class="btn btn-outline-danger">
+            <a
+              href="https://www.behance.net/anuragworld"
+              class="btn btn-outline-danger"
+              role="button"
+              data-bs-toggle="button"
+            >
               View Portfolio on Behance
-            </button>
+            </a>
           </div>
         </div>
       </div>
