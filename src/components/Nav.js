@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Nav } from 'react-bootstrap'
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'
 
 const Navigation = (props) => {
@@ -9,14 +9,13 @@ const Navigation = (props) => {
         <Navbar.Brand href="/" className="text-danger fw-bold">
           {props.name}
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarSupportedContent"></Navbar.Toggle>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="navbarSupportedContent">
           <Nav className="ms-auto">
-            <LinkContainer to="/">
-              <Nav.Link>Home</Nav.Link>
-            </LinkContainer>
-
-            <Nav.Link>About</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <NavDropdown title="Portfolio" id="navbarDropdown">
+              <NavDropdown.Item href="/ui">UI Design</NavDropdown.Item>
+            </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
