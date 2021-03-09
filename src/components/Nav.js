@@ -5,15 +5,20 @@ const Navigation = (props) => {
   return (
     <div className="container-fluid">
       <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="/" className="text-danger fw-bold">
+        <Navbar.Brand
+          href={process.env.PUBLIC_URL}
+          className="text-danger fw-bold"
+        >
           {props.name}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href={process.env.PUBLIC_URL}>Home</Nav.Link>
             <NavDropdown title="Portfolio" id="navbarDropdown">
-              <NavDropdown.Item href="/ui">UI Design</NavDropdown.Item>
+              <NavDropdown.Item href={process.env.PUBLIC_URL + '/#/ui'}>
+                UI Design
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
