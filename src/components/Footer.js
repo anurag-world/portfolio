@@ -46,7 +46,17 @@ const Footer = () => {
       <div className="row pb-5">
         <div className="col text-center text-light">
           <p className="lead fs-6">
-            Made by me using <FaReact /> React & <FaBootstrap /> Bootstrap
+            Made by me using <FaReact /> React & <FaBootstrap /> Bootstrap{' '}
+            <br />
+            Hosted on{' '}
+            <a
+              href="https://github.com/anurag-world/portfolio"
+              target="_blank"
+              rel="noreferrer"
+              className="link-light"
+            >
+              Github
+            </a>
           </p>
           <p>
             Copyright <FaRegCopyright /> Anurag World {getYear}

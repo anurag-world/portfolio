@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom'
 import UX01 from '../../img/ux-01.png'
 import UX02 from '../../img/ux-02.png'
 import UX03 from '../../img/ux-03.png'
+import LearnUX from '../../pdf/learnUX.pdf'
+import FitnessApp from '../../pdf/fitnessApp.pdf'
 
 const UXCase01 = (
   <img
@@ -61,13 +63,11 @@ const UxCase = () => {
         </div>
 
         <div className="col-lg-4 container-work-thumb my-3">
-          <a href="/">
+          <a href={LearnUX} target="_blank" rel="noreferrer">
             {UXCase02}
             <div className="col-10 middle">
               <div className="text-light bg-dark px-3 py-2">
-                <p className="lead fs-6 mb-2">
-                  UX Case Study for Teaching App (Coming Soon)
-                </p>
+                <p className="lead fs-6 mb-2">UX Case Study for Teaching App</p>
 
                 <span className="fs-6 text-uppercase">Read Case Study</span>
               </div>
@@ -76,13 +76,11 @@ const UxCase = () => {
         </div>
 
         <div className="col-lg-4 container-work-thumb my-3">
-          <a href="/">
+          <a href={FitnessApp} target="_blank" rel="noreferrer">
             {UXCase03}
             <div className="col-10 middle">
               <div className="text-light bg-dark px-3 py-2">
-                <p className="lead fs-6 mb-2">
-                  UX Case Study for Fitness App (Coming Soon)
-                </p>
+                <p className="lead fs-6 mb-2">UX Case Study for Fitness App</p>
 
                 <span className="fs-6 text-uppercase">Read Case Study</span>
               </div>
