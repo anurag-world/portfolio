@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.dc6191f3.chunk.css",
-    "main.js": "/portfolio/static/js/main.dcb6ed04.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.dcb6ed04.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.e4904108.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e4904108.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.87a7a22f.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.87a7a22f.js.map",
     "static/css/2.3406d7a6.chunk.css": "/portfolio/static/css/2.3406d7a6.chunk.css",
@@ -15,7 +15,9 @@
     "static/media/backdrop.1c120d14.png": "/portfolio/static/media/backdrop.1c120d14.png",
     "static/media/bankapp.53f11d36.png": "/portfolio/static/media/bankapp.53f11d36.png",
     "static/media/coffeeApp.d13d8a1a.jpg": "/portfolio/static/media/coffeeApp.d13d8a1a.jpg",
+    "static/media/fitnessApp.9e1f6652.pdf": "/portfolio/static/media/fitnessApp.9e1f6652.pdf",
     "static/media/furnitureApp.54d2ca0c.png": "/portfolio/static/media/furnitureApp.54d2ca0c.png",
+    "static/media/learnUX.2d4f7093.pdf": "/portfolio/static/media/learnUX.2d4f7093.pdf",
     "static/media/learnux.d11d4706.png": "/portfolio/static/media/learnux.d11d4706.png",
     "static/media/paymentGateway.6c553e37.jpg": "/portfolio/static/media/paymentGateway.6c553e37.jpg",
     "static/media/photoSharingHome.2685775f.png": "/portfolio/static/media/photoSharingHome.2685775f.png",
@@ -36,6 +38,6 @@
     "static/css/2.3406d7a6.chunk.css",
     "static/js/2.f1165445.chunk.js",
     "static/css/main.dc6191f3.chunk.css",
-    "static/js/main.dcb6ed04.chunk.js"
+    "static/js/main.e4904108.chunk.js"
   ]
 }
