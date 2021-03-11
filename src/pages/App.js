@@ -8,7 +8,7 @@ import Footer from '../components/Footer'
 class App extends Component {
   render() {
     return (
-      <HashRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter>
         <NavBar name="Anurag V" />
         <Switch>
           <Route path="/" component={Main} exact />

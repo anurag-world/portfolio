@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import UX01 from '../../img/ux-01.png'
 import UX02 from '../../img/ux-02.png'
 import UX03 from '../../img/ux-03.png'
@@ -92,9 +93,12 @@ const UxCase = () => {
 
       <div className="row justify-content-center py-5">
         <div className="col text-center">
-          <button type="button" class="btn btn-outline-danger me-3">
-            View More UI Designs
-          </button>
+          <Link to="/ui">
+            <button type="button" class="btn btn-outline-danger me-3">
+              View More UI Designs
+            </button>
+          </Link>
+
           <a
             href="https://www.behance.net/anuragworld"
             class="btn btn-outline-danger"
