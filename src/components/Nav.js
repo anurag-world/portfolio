@@ -14,7 +14,7 @@ const Navigation = (props) => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href={process.env.PUBLIC_URL}>Home</Nav.Link>
+            <Nav.Link href="/ui">Home</Nav.Link>
             <NavDropdown title="Portfolio" id="navbarDropdown">
               <NavDropdown.Item href={process.env.PUBLIC_URL + '/#/ui'}>
                 UI Designs
@@ -57,7 +57,7 @@ const Navigation = (props) => {
               Blog
             </Nav.Link>
             <Nav.Link
-              href="https://github.com/anurag-world/portfolio"
+              href="https://github.com/anurag-world/anurag-world.github.io"
               target="_blank"
               rel="noreferrer"
               title="View React source code for this website"
