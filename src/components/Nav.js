@@ -14,7 +14,7 @@ const Navigation = (props) => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/ui">Home</Nav.Link>
+            <Nav.Link href={process.env.PUBLIC_URL + '/#/'}>Home</Nav.Link>
             <NavDropdown title="Portfolio" id="navbarDropdown">
               <NavDropdown.Item href={process.env.PUBLIC_URL + '/#/ui'}>
                 UI Designs
