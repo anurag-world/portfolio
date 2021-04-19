@@ -62,6 +62,12 @@
 }
 
 /* Modal */
+.modal-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 
 /* Style the Image Used to Trigger the Modal */
 .myImg {

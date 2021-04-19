@@ -46,7 +46,7 @@ class UiDesign extends Component {
 
             {/* Trigger the Modal */}
 
-            <div className="d-flex flex-wrap justify-content-between">
+            <div className="modal-container">
               <img
                 className="m-1 myImg border border-danger"
                 src={BankApp}
