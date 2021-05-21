@@ -9,8 +9,9 @@ const Header = () => {
 
   const subtitle = (
     <p className="lead fs-6 p-3 fw-normal text-dark">
-      Experience in design & building projects using Node JS & Javascript
-      Libraries like React & React Native.
+      Experience in Front End Development like HTML, CSS, Javascript, SCSS,
+      Bootstrap, React, etc & basic Back End Development like NodeJS, ExpressJS,
+      MongoDB, MySQL, etc
     </p>
   )
 

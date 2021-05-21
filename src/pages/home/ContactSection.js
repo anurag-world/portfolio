@@ -6,8 +6,9 @@ const ContactSection = () => {
           <h5>Interested in working with me or Collaborating?</h5>
           <p className="lead fs-6 fw-normal">
             I am always open for discussion regarding your product or project.
-            Let's discuss over a coffee or online. Drop me a mail at
-            contact@anuragworld.com or contact me below.
+            Let's discuss over a coffee or online.
+            <br />
+            Drop me a mail at contact@anuragworld.com.
           </p>
           {/* <button type="button" className="btn btn-danger">
             Contact Me

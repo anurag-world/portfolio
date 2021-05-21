@@ -59,7 +59,7 @@ const Footer = () => {
             </a>
           </p>
           <p>
-            Copyright <FaRegCopyright /> Anurag World {getYear}
+            Copyright <FaRegCopyright /> Anurag V {getYear}
           </p>
         </div>
       </div>

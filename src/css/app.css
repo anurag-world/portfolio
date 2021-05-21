@@ -6,19 +6,52 @@
   background-color: #e9ecef;
 }
 
-/* Card Styles */
-.card-header {
-  background-color: #dc3545 !important;
+.work-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem;
 }
 
-.card-body {
+.work-feature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: calc(100% / 3);
+}
+
+.work-feature:nth-child(2) {
+  margin: 0 1rem;
+}
+
+.work-feature-header {
+  background-color: #dc3545;
+  text-align: center;
+  padding: 0.3rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.work-feature-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 2rem;
   background-color: #e9ecef;
-}
-
-@media (min-width: 992px) {
-  .card {
-    height: 45rem;
-  }
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
 }
 
 /* Work Profile Hover */
@@ -29,7 +62,7 @@
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .middle {
@@ -40,7 +73,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -59,10 +92,18 @@
 
 /* Modal */
 .modal-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 /* Style the Image Used to Trigger the Modal */
@@ -128,30 +169,30 @@
 .modal-content,
 #caption {
   -webkit-animation-name: zoom;
-  animation-name: zoom;
+          animation-name: zoom;
   -webkit-animation-duration: 0.6s;
-  animation-duration: 0.6s;
+          animation-duration: 0.6s;
 }
 
 @-webkit-keyframes zoom {
   from {
     -webkit-transform: scale(0);
-    transform: scale(0);
+            transform: scale(0);
   }
   to {
     -webkit-transform: scale(1);
-    transform: scale(1);
+            transform: scale(1);
   }
 }
 
 @keyframes zoom {
   from {
     -webkit-transform: scale(0);
-    transform: scale(0);
+            transform: scale(0);
   }
   to {
     -webkit-transform: scale(1);
-    transform: scale(1);
+            transform: scale(1);
   }
 }
 
