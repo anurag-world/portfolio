@@ -6,11 +6,64 @@
   background-color: #e9ecef;
 }
 
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3rem;
+}
+
+.header h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.header h2 {
+  text-align: center;
+  line-height: 1.5;
+  width: 60%;
+  font-size: 1.1rem;
+}
+
+.header img {
+  height: auto;
+  max-height: 12.5rem;
+}
+
+.section-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3rem;
+}
+
+.section-1 p {
+  width: 60%;
+  margin-bottom: 0;
+  text-align: center;
+}
+
 .work-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .work-feature {
@@ -25,7 +78,7 @@
 }
 
 .work-feature:nth-child(2) {
-  margin: 0 1rem;
+  margin: 0 2rem;
 }
 
 .work-feature-header {
@@ -54,7 +107,6 @@
   border-bottom-right-radius: 0.5rem;
 }
 
-/* Work Profile Hover */
 .image-work-thumb {
   opacity: 1;
   display: block;

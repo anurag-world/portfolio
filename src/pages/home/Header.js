@@ -2,32 +2,30 @@ import profilePic from '../../img/profile_pic_tn.png'
 
 const Header = () => {
   const headline = (
-    <h1 className="display-5 fw-bold text-danger">
-      UI/UX Designer & Full Stack <br /> Developer
+    <h1 className="display-6 fw-bold text-danger mb-3">
+      UI/UX Designer & Developer
     </h1>
   )
 
   const subtitle = (
-    <p className="lead fs-6 p-3 fw-normal text-dark">
+    <h2 className="fw-normal text-dark mb-4">
       Experience in Front End Development like HTML, CSS, Javascript, SCSS,
       Bootstrap, React, etc & basic Back End Development like NodeJS, ExpressJS,
       MongoDB, MySQL, etc
-    </p>
+    </h2>
   )
 
-  const displayImg = <img src={profilePic} height={200} alt="Display Pic" />
+  const displayImg = <img src={profilePic} alt="Display Pic" />
 
   return (
     <div className="container-fluid bg-light">
-      <div className="row justify-content-center">
-        <div className="col-lg-6 my-5">
-          <div className="text-center">
-            {headline}
+      <div className="row">
+        <div className="col header">
+          {headline}
 
-            {subtitle}
+          {subtitle}
 
-            {displayImg}
-          </div>
+          <div>{displayImg}</div>
         </div>
       </div>
     </div>
