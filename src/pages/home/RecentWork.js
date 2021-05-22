@@ -4,7 +4,7 @@ import Work03 from '../../img/work-03.png'
 
 const WorkThumb01 = (
   <img
-    className="image-work-thumb img-fluid rounded border border-danger"
+    className="rounded border border-danger"
     src={Work01}
     alt="Work Thumbnail"
   />
@@ -12,7 +12,7 @@ const WorkThumb01 = (
 
 const WorkThumb02 = (
   <img
-    className="image-work-thumb img-fluid rounded border border-danger"
+    className="rounded border border-danger"
     src={Work02}
     alt="Work Thumbnail"
   />
@@ -20,7 +20,7 @@ const WorkThumb02 = (
 
 const WorkThumb03 = (
   <img
-    className="image-work-thumb img-fluid rounded border border-danger"
+    className="rounded border border-danger"
     src={Work03}
     alt="Work Thumbnail"
   />
@@ -28,62 +28,58 @@ const WorkThumb03 = (
 
 const RecentWork = () => {
   return (
-    <div className="container-fluid bg-yellow">
-      <div className="row justify-content-center py-5">
-        <div className="col-lg-8">
-          <h1 className="display-6 fw-normal text-danger text-center">
-            Work Profile
-          </h1>
-          <p className="text-center lead fs-6 fw-normal">
-            Some of the websites designed and created in React & other
-            frameworks. These websites are hosted on Virtual Linux Servers.
-            Contact Me for similar work.
-          </p>
-        </div>
+    // Recent Work Header
+    <div className="container-fluid bg-yellow" id="recent-work">
+      <div className="recent-work-header">
+        <h1 className="display-6 fw-normal text-danger">
+          Full Stack Developer
+        </h1>
+        <p className="lead fs-6 fw-normal">
+          The portfolio contains some of the recent work I worked on as my role
+          as a developer. Also, sharing portfolio websites showcasing Front End
+          & Back End knowlegde while developing these websites. <br />
+          For more developer portfolio & code examples visit -{' '}
+          <a
+            href="https://codepen.io/anurag-world"
+            target="_blank"
+            rel="noreferrer"
+          >
+            CodePen
+          </a>{' '}
+          or{' '}
+          <a
+            href="https://github.com/anurag-world"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+        </p>
       </div>
-      <div className="row justify-content-center px-5 pb-5">
-        <div className="col-lg-4 container-work-thumb my-3">
-          <a href="http://www.ljnjcollege.in/">
+
+      {/* Recent Work Body */}
+      <div className="recent-work-body">
+        <div className="image-work-thumb">
+          <a
+            href="https://www.ljnjcollege.in/"
+            target="_blank"
+            rel="noreferrer"
+          >
             {WorkThumb01}
-            <div className="col-10 middle">
-              <div className="text-light bg-dark px-3 py-2 rounded">
-                <p className="lead fs-6 mb-2">
-                  University Website created using codeigniter
-                </p>
-
-                <span className="fs-6 text-uppercase">Visit Website</span>
-              </div>
-            </div>
           </a>
         </div>
-
-        <div className="col-lg-4 container-work-thumb my-3">
-          <a href="https://hallway.in/">
+        <div className="image-work-thumb">
+          <a href="https://hallway.in/" target="_blank" rel="noreferrer">
             {WorkThumb02}
-            <div className="col-10 middle">
-              <div className="text-light bg-dark px-3 py-2 rounded">
-                <p className="lead fs-6 mb-2">
-                  Events Website created using Laravel
-                </p>
-
-                <span className="fs-6 text-uppercase">Visit Website</span>
-              </div>
-            </div>
           </a>
         </div>
-
-        <div className="col-lg-4 container-work-thumb my-3">
-          <a href="http://websiteclientdemo.tk/">
+        <div className="image-work-thumb">
+          <a
+            href="https://codepen.io/anurag-world/full/eYvJzNp"
+            target="_blank"
+            rel="noreferrer"
+          >
             {WorkThumb03}
-            <div className="col-10 middle">
-              <div className="text-light bg-dark px-3 py-2 rounded">
-                <p className="lead fs-6 mb-2">
-                  Ecommerce Website created using Laravel
-                </p>
-
-                <span className="fs-6 text-uppercase">Visit Website</span>
-              </div>
-            </div>
           </a>
         </div>
       </div>

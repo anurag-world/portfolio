@@ -6,6 +6,10 @@
   background-color: #e9ecef;
 }
 
+.navbar-brand {
+  margin-right: 0 !important;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -97,14 +101,90 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem 2rem 2rem;
   background-color: #e9ecef;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
+}
+
+#recent-work {
+  padding: 3rem;
+}
+
+.recent-work-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 2rem;
+}
+
+.recent-work-header h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.recent-work-header p {
+  text-align: center;
+  width: 55rem;
+}
+
+.recent-work-header a {
+  color: #dc3545;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.recent-work-header a:hover {
+  color: #dc3545;
+  text-decoration: underline;
+}
+
+.recent-work-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.recent-work-body img {
+  height: auto;
+  max-height: 15.625rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 1;
+}
+
+.recent-work-body img:hover {
+  opacity: 0.7;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.image-work-thumb:nth-child(2) {
+  margin: 0 1rem;
 }
 
 .image-work-thumb {

@@ -11,6 +11,12 @@
   background-color: $gray-200;
 }
 
+// Navbar
+
+.navbar-brand {
+  margin-right: 0 !important;
+}
+
 // Header
 
 .header {
@@ -81,12 +87,70 @@
 .work-feature-body {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem 2rem 2rem;
   background-color: $gray-200;
   flex-grow: 1;
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
+}
+
+// Recent Work
+
+#recent-work {
+  padding: 3rem;
+}
+
+.recent-work-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+
+  p {
+    text-align: center;
+    width: 55rem;
+  }
+
+  a {
+    color: $danger;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  a:hover {
+    color: $danger;
+    text-decoration: underline;
+  }
+}
+
+.recent-work-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    height: auto;
+    max-height: 15.625rem;
+    object-fit: cover;
+    opacity: 1;
+  }
+  img:hover {
+    opacity: 0.7;
+    transition: 0.5s ease;
+  }
+}
+
+.image-work-thumb:nth-child(2) {
+  margin: 0 1rem;
 }
 
 // Work Profile Hover
@@ -123,6 +187,7 @@
 }
 
 /* Modal */
+
 .modal-container {
   display: flex;
   flex-wrap: wrap;
