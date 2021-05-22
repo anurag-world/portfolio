@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.b5dd60b2.chunk.css",
-    "main.js": "/static/js/main.347ac30d.chunk.js",
-    "main.js.map": "/static/js/main.347ac30d.chunk.js.map",
+    "main.css": "/static/css/main.32b176c3.chunk.css",
+    "main.js": "/static/js/main.8c06dee3.chunk.js",
+    "main.js.map": "/static/js/main.8c06dee3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9fb8610e.js",
     "runtime-main.js.map": "/static/js/runtime-main.9fb8610e.js.map",
     "static/css/2.3406d7a6.chunk.css": "/static/css/2.3406d7a6.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.f1165445.chunk.js.map": "/static/js/2.f1165445.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.3406d7a6.chunk.css.map": "/static/css/2.3406d7a6.chunk.css.map",
-    "static/css/main.b5dd60b2.chunk.css.map": "/static/css/main.b5dd60b2.chunk.css.map",
+    "static/css/main.32b176c3.chunk.css.map": "/static/css/main.32b176c3.chunk.css.map",
     "static/js/2.f1165445.chunk.js.LICENSE.txt": "/static/js/2.f1165445.chunk.js.LICENSE.txt",
     "static/media/backdrop.1c120d14.png": "/static/media/backdrop.1c120d14.png",
     "static/media/bankapp.53f11d36.png": "/static/media/bankapp.53f11d36.png",
@@ -37,7 +37,7 @@
     "static/js/runtime-main.9fb8610e.js",
     "static/css/2.3406d7a6.chunk.css",
     "static/js/2.f1165445.chunk.js",
-    "static/css/main.b5dd60b2.chunk.css",
-    "static/js/main.347ac30d.chunk.js"
+    "static/css/main.32b176c3.chunk.css",
+    "static/js/main.8c06dee3.chunk.js"
   ]
 }
