@@ -28,8 +28,8 @@ const WorkThumb03 = (
 
 const RecentWork = () => {
   return (
-    // Recent Work Header
-    <div className="container-fluid bg-yellow" id="recent-work">
+    <div className="container-fluid bg-yellow recent-work">
+      {/* Recent Work Header */}
       <div className="recent-work-header">
         <h1 className="display-6 fw-normal text-danger">
           Full Stack Developer
@@ -59,7 +59,7 @@ const RecentWork = () => {
 
       {/* Recent Work Body */}
       <div className="recent-work-body">
-        <div className="image-work-thumb">
+        <div>
           <a
             href="https://www.ljnjcollege.in/"
             target="_blank"
@@ -68,12 +68,12 @@ const RecentWork = () => {
             {WorkThumb01}
           </a>
         </div>
-        <div className="image-work-thumb">
+        <div className="mx-2">
           <a href="https://hallway.in/" target="_blank" rel="noreferrer">
             {WorkThumb02}
           </a>
         </div>
-        <div className="image-work-thumb">
+        <div>
           <a
             href="https://codepen.io/anurag-world/full/eYvJzNp"
             target="_blank"

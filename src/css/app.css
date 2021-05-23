@@ -117,7 +117,7 @@
   border-bottom-right-radius: 0.5rem;
 }
 
-#recent-work {
+.recent-work {
   padding: 3rem;
 }
 
@@ -183,43 +183,89 @@
   transition: 0.5s ease;
 }
 
-.image-work-thumb:nth-child(2) {
-  margin: 0 1rem;
+.ux-case {
+  padding: 3rem;
 }
 
-.image-work-thumb {
-  opacity: 1;
-  display: block;
-  height: auto;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+.ux-case-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 2rem;
 }
 
-.middle {
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+.ux-case-header h1 {
   text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
 }
 
-.container-work-thumb {
+.ux-case-header p {
+  text-align: center;
+  width: 55rem;
+}
+
+.ux-case-header a {
+  color: #dc3545;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ux-case-header a:hover {
+  color: #dc3545;
+  text-decoration: underline;
+}
+
+.ux-case-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ux-case-body img {
+  height: auto;
+  max-height: 15.625rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 1;
+}
+
+.ux-case-body .ux-case-img {
+  display: block;
   position: relative;
 }
 
-.container-work-thumb:hover .image-work-thumb {
-  opacity: 0.3;
+.ux-case-body .img-details {
+  opacity: 0;
+  position: absolute;
+  background-color: #dc3545;
+  text-align: center;
+  padding: 5rem 2rem;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  cursor: pointer;
 }
 
-.container-work-thumb:hover .middle {
-  opacity: 0.9;
+.ux-case-body .img-details:hover {
+  opacity: 1;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 /* Modal */
