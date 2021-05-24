@@ -97,6 +97,35 @@
   border-bottom-right-radius: 0.5rem;
 }
 
+// Image Hover Details
+
+.work-img {
+  display: block;
+  position: relative;
+}
+
+.img-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  position: absolute;
+  background-color: $danger;
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.img-details:hover {
+  opacity: 1;
+  transition: 0.3s ease;
+}
+
 // Recent Work
 
 .recent-work {
@@ -135,9 +164,15 @@
 .recent-work-body {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  > div {
+    margin: 0.5rem;
+  }
 
   img {
+    width: 28.125rem;
     height: auto;
     max-height: 15.625rem;
     object-fit: cover;
@@ -195,29 +230,14 @@
     object-fit: cover;
     opacity: 1;
   }
+}
 
-  .ux-case-img {
-    display: block;
-    position: relative;
-  }
+.contact-section {
+  text-align: center;
+  padding: 3rem;
 
-  .img-details {
-    opacity: 0;
-    position: absolute;
-    background-color: $danger;
-    text-align: center;
-    padding: 5rem 2rem;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    cursor: pointer;
-  }
-
-  .img-details:hover {
-    opacity: 1;
-    transition: 0.3s ease;
+  p {
+    margin-bottom: 0;
   }
 }
 

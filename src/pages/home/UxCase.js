@@ -43,7 +43,7 @@ const UxCase = () => {
 
       {/* UX Case Body */}
       <div className="ux-case-body">
-        <div className="ux-case-img">
+        <div className="work-img">
           {UXCase01}
 
           <a
@@ -61,7 +61,7 @@ const UxCase = () => {
           </a>
         </div>
 
-        <div className="ux-case-img mx-2">
+        <div className="work-img mx-2">
           {UXCase02}
           <a href={LearnUX} target="_blank" rel="noreferrer">
             <span className="img-details rounded border border-danger">
@@ -74,7 +74,7 @@ const UxCase = () => {
           </a>
         </div>
 
-        <div className="ux-case-img">
+        <div className="work-img">
           {UXCase03}
           <a href={FitnessApp} target="_blank" rel="noreferrer">
             <span className="img-details rounded border border-danger">
