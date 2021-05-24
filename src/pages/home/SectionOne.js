@@ -15,13 +15,7 @@ const SectionOne = () => {
     </p>
   )
 
-  return (
-    <div className="container-fluid bg-yellow">
-      <div className="row">
-        <div className="col section-1">{about}</div>
-      </div>
-    </div>
-  )
+  return <div className="section-1 bg-yellow">{about}</div>
 }
 
 export default SectionOne
