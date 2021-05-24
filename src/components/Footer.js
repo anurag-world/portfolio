@@ -29,16 +29,44 @@ const Footer = () => {
       <div className="row mb-3">
         <div className="col text-center">
           <span className="me-4 text-light">
-            <FaFacebook />
+            <a
+              href="https://www.facebook.com/anurag.world.official/"
+              target="_blank"
+              rel="noreferrer"
+              className="link-light"
+            >
+              <FaFacebook />
+            </a>
           </span>
           <span className="me-4 text-light">
-            <FaTwitter />
+            <a
+              href="https://twitter.com/WorldAnurag"
+              target="_blank"
+              rel="noreferrer"
+              className="link-light"
+            >
+              <FaTwitter />
+            </a>
           </span>
           <span className="me-4 text-light">
-            <FaInstagram />
+            <a
+              href="https://www.instagram.com/anurag.designs/"
+              target="_blank"
+              rel="noreferrer"
+              className="link-light"
+            >
+              <FaInstagram />
+            </a>
           </span>
           <span className="me-4 text-light">
-            <FaLinkedin />
+            <a
+              href="https://www.linkedin.com/in/anuragv91/"
+              target="_blank"
+              rel="noreferrer"
+              className="link-light"
+            >
+              <FaLinkedin />
+            </a>
           </span>
         </div>
       </div>
@@ -50,7 +78,7 @@ const Footer = () => {
             <br />
             Hosted on{' '}
             <a
-              href="https://github.com/anurag-world/portfolio"
+              href="https://github.com/anurag-world/anurag-world.github.io"
               target="_blank"
               rel="noreferrer"
               className="link-light"
