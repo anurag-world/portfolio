@@ -11,7 +11,7 @@ const Header = () => {
     <h2 className="fw-normal text-dark mb-4">
       Experience in Front End Development like HTML, CSS, Javascript, SCSS,
       Bootstrap, React, etc & basic Back End Development like NodeJS, ExpressJS,
-      MongoDB, MySQL, etc
+      MongoDB, PHP, MySQL, etc
     </h2>
   )
 
