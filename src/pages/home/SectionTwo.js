@@ -60,17 +60,17 @@ const SectionTwo = () => {
             <div>
               <p className="lead fs-6 fw-normal">
                 Experience in various languages & frameworks like Bootstrap,
-                HTML, CSS, SCSS, Jquery, Javascript, PHP. Also, have experience
+                HTML, CSS, SASS, Jquery, Javascript, PHP. Also, have experience
                 in creating e-commerce, university websites using frameworks
-                like laravel & codeigniter. I am also proficient in React, React
-                Native, ExpressJS , NodeJS, MongoDB, NoSQL, MySQL, Gulp,
+                like laravel & codeigniter. I am also proficient in React,
+                ExpressJS , NodeJS, MongoDB, NoSQL, MySQL, Gulp, Webpack,
                 Firebase. I can also manage & deploy projects on linux, VPS &
                 cloud servers.
               </p>
               <h6 className="display-7 fw-bold text-danger">Skills</h6>
               <p className="lead fs-6 fw-normal">
-                Bootstrap, HTML, CSS, SCSS, Jquery, Javascript, PHP, React,
-                React Native, ExpressJS, NodeJS, MongoDB, NoSQL, MySQL, Gulp,
+                Bootstrap, HTML, CSS, SASS, Jquery, Javascript, PHP, React,
+                ExpressJS, NodeJS, MongoDB, NoSQL, MySQL, Gulp, Webpack,
                 Laravel, Codeigniter
               </p>
 
