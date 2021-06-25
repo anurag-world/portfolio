@@ -1,14 +1,15 @@
 const SectionOne = () => {
   const about = (
     <p className="lead fs-6 fw-normal text-dark">
-      I am a UI/UX Designer & Developer with Front End Development knowledge of
-      HTML, CSS, Bootstrap, SASS, Javascript, JQuery, React, Redux, etc & basic
-      Backend Development knowledge of NodeJS, Express, MongoDB, PHP, MySQL,
-      Firebase, etc and other technologies like Gulp, Webpack, Github, Linux,
-      AWS, etc. I also have strong design skills and knowledge of using the
-      latest design tools, gained through working in various companies &
-      handling projects & clients. I have also worked as a social media manager
-      and have experience in managing & mentoring a team.
+      I am a Front End Developer & Designer. I have 6+ years of experience
+      working in Front & Back End development like HTML, CSS, CSS Flexbox, CSS
+      Grid, CSS Animation & Transitions, SCSS, Javascript, JQuery, PHP & MySQL,
+      and also have experience working on React, Styled Components, React Hooks,
+      Design Systems, Reusable Components, etc and basic knowledge for NodeJS,
+      MongoDB, Gulp, Firebase, Linux, etc. I also have strong design skills
+      using the latest design tools, gained through working in various companies
+      & handling various projects & clients. I have also worked as a social
+      media manager and have experience in managing & mentoring a team.
     </p>
   )
 

@@ -10,7 +10,8 @@ const Header = () => {
   const subtitle = (
     <h2 className="fw-normal text-dark mb-4">
       Experience in Front End Development like HTML, CSS, Javascript, SCSS,
-      Bootstrap, React, etc & basic Back End Development like NodeJS, ExpressJS,
+      Bootstrap, React, Styled Components, Design System, Reusable Components,
+      React Hooks, etc & basic Back End Development like NodeJS, ExpressJS,
       MongoDB, PHP, MySQL, etc
     </h2>
   )
